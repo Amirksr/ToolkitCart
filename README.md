@@ -17,51 +17,50 @@ This project explores how using **Redux Toolkit** enhances React applications by
 ## 📁 Folder Structure
 
 ```
-├── ToolkitCart_project/
-│   ├── ToolkitCart-main/
-│   │   .gitignore
-│   │   eslint.config.js
-│   │   index.html
-│   │   package-lock.json
-│   │   package.json
-│   │   vite.config.js
-│   │   ├── public/
-│   │   │   vite.svg
-│   │   ├── src/
-│   │   │   App.css
-│   │   │   App.jsx
-│   │   │   db.js
-│   │   │   index.css
-│   │   │   main.jsx
-│   │   │   ├── Redux/
-│   │   │   │   slice.js
-│   │   │   │   store.js
-│   │   │   ├── assets/
-│   │   │   │   react.svg
-│   │   │   ├── components/
-│   │   │   │   ├── cart/
-│   │   │   │   │   Cart.css
-│   │   │   │   │   Cart.jsx
-│   │   │   │   │   ProductItemInCart.css
-│   │   │   │   │   ProductItemInCart.jsx
-│   │   │   │   ├── footer/
-│   │   │   │   │   Footer.css
-│   │   │   │   │   Footer.jsx
-│   │   │   │   ├── navbar/
-│   │   │   │   │   Navbar.css
-│   │   │   │   │   Navbar.jsx
-│   │   │   │   ├── products/
-│   │   │   │   │   ProductItem.css
-│   │   │   │   │   ProductItem.jsx
-│   │   │   │   │   ProductsList.css
-│   │   │   │   │   ProductsList.jsx
-│   │   │   ├── pages/
-│   │   │   │   ├── cart/
-│   │   │   │   │   CartPage.css
-│   │   │   │   │   CartPage.jsx
-│   │   │   │   ├── home/
-│   │   │   │   │   HomePage.css
-│   │   │   │   │   HomePage.jsx
+ToolkitCart/
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package-lock.json
+├── package.json
+├── vite.config.js
+├── public/
+│ └── vite.svg
+├── src/
+│ ├── App.css
+│ ├── App.jsx
+│ ├── db.js
+│ ├── index.css
+│ ├── main.jsx
+│ ├── Redux/
+│ │ ├── slice.js
+│ │ └── store.js
+│ ├── assets/
+│ │ └── react.svg
+│ ├── components/
+│ │ ├── cart/
+│ │ │ ├── Cart.css
+│ │ │ ├── Cart.jsx
+│ │ │ ├── ProductItemInCart.css
+│ │ │ └── ProductItemInCart.jsx
+│ │ ├── footer/
+│ │ │ ├── Footer.css
+│ │ │ └── Footer.jsx
+│ │ ├── navbar/
+│ │ │ ├── Navbar.css
+│ │ │ └── Navbar.jsx
+│ │ ├── products/
+│ │ │ ├── ProductItem.css
+│ │ │ ├── ProductItem.jsx
+│ │ │ ├── ProductsList.css
+│ │ │ └── ProductsList.jsx
+│ ├── pages/
+│ │ ├── cart/
+│ │ │ ├── CartPage.css
+│ │ │ └── CartPage.jsx
+│ │ └── home/
+│ │ ├── HomePage.css
+│ │ └── HomePage.js
 ```
 
 ## 🛠️ Tech Stack
