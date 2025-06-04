@@ -1,11 +1,11 @@
 import "./ProductItem.css";
-import productsList from "../../db";
 import { useDispatch } from "react-redux";
+import { addToCart } from "../../Redux/slice";
 
 function ProductItem(data) {
   const { id, name, price, image } = data;
   const dispatch = useDispatch();
-  const addToCartHandler = () => dispatch({ type: "ADD_TO_CART", data });
+  const addToCartHandler = () => dispatch(addToCart(data));
 
   return (
     <div className="productCard">

@@ -1,13 +1,18 @@
 import "./ProductItemInCart.css";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { useDispatch } from "react-redux";
+import {
+  increaseInCart,
+  decreaseInCart,
+  removeFromCart,
+} from "../../Redux/slice";
 
 function ProductItemInCart({ id, name, price, image, count, totalPrice }) {
   const dispatch = useDispatch();
 
-  const decreaseHandler = () => dispatch({ type: "DECREASE_IN_CART", id });
-  const increaseHandler = () => dispatch({ type: "INCREASE_IN_CART", id });
-  const removeHandler = () => dispatch({ type: "REMOVE_FROM_CART", id });
+  const decreaseHandler = () => dispatch(decreaseInCart(id));
+  const increaseHandler = () => dispatch(increaseInCart(id));
+  const removeHandler = () => dispatch(removeFromCart(id));
 
   return (
     <div className="productItemInCart">
